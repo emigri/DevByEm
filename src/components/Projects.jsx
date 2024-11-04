@@ -1,3 +1,5 @@
+import teaMakerThumbnail from "../assets/tea-maker-thumbnail.png";
+
 function Projects() {
   const ProjectCards = [
     {
@@ -5,7 +7,7 @@ function Projects() {
       name: "Tea Round Maker",
       href: "https://platform-tea-round-maker.netlify.app/",
       description: "HTML, Tailwind CSS, JS, Vue",
-      imageSrc: "https://placehold.co/600x600",
+      imageSrc: teaMakerThumbnail,
       imageAlt: "Tea round maker"
     },
     {
@@ -81,11 +83,11 @@ function Projects() {
                 rel="noreferrer"
                 className="group"
               >
-                <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7 shadow-sm">
+                <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-400 xl:aspect-h-8 xl:aspect-w-7 shadow-sm">
                   <img
                     alt={Projects.imageAlt}
                     src={Projects.imageSrc}
-                    className="h-full w-full object-cover object-center group-hover:opacity-20 shadow-xl"
+                    className="h-full w-full object-cover object-center group-hover:opacity-20 duration-500 shadow-xl"
                   />
                 </div>
                 <h3 className="mt-4 text-sm text-gray-700">{Projects.name}</h3>
