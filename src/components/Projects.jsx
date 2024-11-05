@@ -1,4 +1,6 @@
 import teaMakerThumbnail from "../assets/tea-maker-thumbnail.png";
+import weatherDashboardThumbnail from "../assets/weather-dashboard-thumbnail.png";
+import passwordGeneratorThumbnail from "../assets/password-generator-thumbnail.png";
 
 function Projects() {
   const ProjectCards = [
@@ -15,7 +17,7 @@ function Projects() {
       name: "Weather Dashboard",
       href: "https://js-weather-dashboard.netlify.app/",
       description: "HTML, Bootstrap CSS, JS",
-      imageSrc: "https://placehold.co/600x600",
+      imageSrc: weatherDashboardThumbnail,
       imageAlt: "Describe image for project two"
     },
     {
@@ -63,7 +65,7 @@ function Projects() {
       name: "Password Generator",
       href: "https://eg-password-generator.netlify.app/",
       description: "HTML, CSS, JS",
-      imageSrc: "https://placehold.co/600x600",
+      imageSrc: passwordGeneratorThumbnail,
       imageAlt: "Description of image for Project Three"
     }
   ];
