@@ -1,7 +1,7 @@
 function Contact() {
   return (
     <>
-      <div id="contact" className=" bg-rose-100">
+      <div id="contact" className=" bg-body-background">
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="text-center">
             <h1 className="text-balance text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl">
