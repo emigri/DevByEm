@@ -4,11 +4,13 @@
 function About() {
   return (
     <>
-      <div id="about" className="relative bg-hero-image bg-cover bg-center ">
+      <div
+        id="about"
+        className="relative bg-hero-image bg-cover bg-center bg-body-background"
+      >
         <div>
-          {/* Overlay */}
+          Overlay
           <div className="absolute inset-0 bg-black opacity-50"></div>
-
           {/* Content */}
           <div className="relative mx-auto z-20 max-w-2xl py-32 sm:py-48 lg:py-56">
             <div className="text-center">

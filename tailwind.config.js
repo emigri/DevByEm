@@ -4,7 +4,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-image": "url('assets/hero-image.jpg')",
+        "hero-image": "url('assets/hero-image.jpg')"
+      },
+      backgroundColor: {
+        "nav-background": "#fffff",
+        "body-background": "#AA4465"
       }
     }
   },
