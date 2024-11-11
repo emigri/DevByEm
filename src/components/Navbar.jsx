@@ -4,8 +4,7 @@ function Hero() {
   const navigation = [
     { name: "Home", href: "/home" },
     { name: "Projects", href: "/projects" },
-    { name: "About Me", href: "/about" },
-    { name: "Contact", href: "/contact" }
+    { name: "About Me", href: "/about" }
   ];
 
   return (
@@ -22,7 +21,7 @@ function Hero() {
                 <Link
                   key={item.name}
                   to={item.href}
-                  className="text-sm font-semibold leading-8 hover:transition-all hover:text-rose-800 hover:scale-110 hover:duration-800 text-gray-900 md:text-lg lg:text-xl"
+                  className="text-sm font-semibold leading-8 hover:scale-105 hover:duration-300 transition duration-1000 text-gray-900 md:text-lg lg:text-xl"
                 >
                   {item.name}
                 </Link>
