@@ -6,7 +6,7 @@ function Home() {
       <div className="bg-body-background h-screen px-6 pt-6 lg:px-8">
         <div className="mx-auto max-w-2xl py-32 sm:py-30 lg:py-56">
           <div className="text-center">
-            <h1 className="text-balance text-4xl font-bold tracking-tight text-gray-200 sm:text-6xl">
+            <h1 className="text-balance text-4xl font-bold tracking-tight text-gray-800 sm:text-6xl">
               <ReactTyped
                 strings={[
                   "Hi, I'm Emily Grivot",
@@ -17,7 +17,7 @@ function Home() {
                 backSpeed={40}
               />
             </h1>
-            <p className="font-sans mt-6 text-lg leading-8 text-gray-200">
+            <p className="font-sans mt-6 text-lg leading-8 text-gray-800">
               I’m a Bristol-based, english, spanish and portuguese speaking web
               developer with a keen eye for detail and a drive to take on new
               challenges.
@@ -38,6 +38,9 @@ function Home() {
               </a>
             </div>
           </div>
+        </div>
+        <div>
+          <p>Avatar</p>
         </div>
       </div>
     </>
