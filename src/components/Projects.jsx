@@ -73,15 +73,18 @@ function Projects() {
   return (
     <>
       <div className="bg-body-background">
-        <div className="flex-col space-y-20 flex items-center mx-auto max-w-2xl sm:py-48 md:py-52 lg:py-56">
+        <h1 className="text-balance p-28 text-center text-4xl font-bold tracking-tight text-gray-800 sm:text-6xl">
+          Projects
+        </h1>
+        <div className="flex-col flex items-center mx-auto max-w-2xl">
           {ProjectCards.map((Projects) => (
-            <div className="border">
+            <div className="hover:scale-105 hover:duration-700 transition duration-1000">
               <a
                 key={Projects.id}
                 href={Projects.href}
                 target="_blank"
                 rel="noreferrer"
-                className="group"
+                className="card h-[100px]"
               >
                 <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-400 xl:aspect-h-8 xl:aspect-w-7 shadow-lg">
                   <img
