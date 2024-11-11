@@ -7,8 +7,8 @@ module.exports = {
         "hero-image": "url('assets/hero-image.jpg')"
       },
       backgroundColor: {
-        "nav-background": "#fffff",
-        "body-background": "#AA4465"
+        "nav-background": "#FFFFF",
+        "body-background": "#E9AFA3"
       }
     }
   },
