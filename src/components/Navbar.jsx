@@ -13,15 +13,15 @@ function Hero() {
       <header>
         <nav
           aria-label="Global"
-          className="flex p-6 px-8 shadow-lg relative isolate bg-nav-background"
+          className="flex py-6 shadow-xl relative isolate bg-nav-background"
         >
-          <div className="flex justify-center sm:flex-1 md:flex-1 lg:flex-1">
-            <div className="flex sm:flex gap-x-6 sm:duration-200 md:flex md:gap-x-12 md:duration-200 lg:flex lg:gap-x-20 lg:duration-200">
+          <div className="flex justify-center w-full flex-1">
+            <div className="flex w-1/2 justify-between">
               {navigation.map((item) => (
                 <Link
                   key={item.name}
                   to={item.href}
-                  className="text-sm font-semibold leading-8 hover:scale-105 hover:duration-300 transition duration-1000 text-gray-900 md:text-lg lg:text-xl"
+                  className="text-sm leading-8 hover:scale-110 hover:duration-300 transition duration-1000 text-gray-900 md:text-lg lg:text-xl"
                 >
                   {item.name}
                 </Link>
