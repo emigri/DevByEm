@@ -4,7 +4,7 @@ import img from "../assets/Emi-avatar.webp";
 function Home() {
   return (
     <>
-      <div className="bg-body-background h-[calc(100vh-80px)] flex flex-wrap-reverse px-6 pt-6 items-center">
+      <div className="bg-body-background h-[calc(100vh-80px)] flex flex-wrap-reverse md:px-40 pt-6 items-center">
         {/* Hero text */}
         <div className="w-full md:w-2/3 flex items-center md:px-24 px-4">
           <div className="text-center mx-auto">
