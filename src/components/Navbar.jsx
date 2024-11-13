@@ -13,7 +13,7 @@ function Hero() {
       <header>
         <nav
           aria-label="Global"
-          className="flex py-6 shadow-xl relative isolate bg-nav-background"
+          className="flex shadow-xl h-20 relative isolate bg-nav-background items-center"
         >
           <div className="flex justify-center w-full flex-1">
             <div className="flex w-1/2 justify-between">
